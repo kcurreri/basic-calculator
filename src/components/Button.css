@@ -1,0 +1,31 @@
+button {
+    border: none;
+    background-color: #374353;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    box-shadow: 9px 9px 16px 0 rgba(0, 0, 0, 0.3),
+        -3px -3px 9px 0 rgba(255, 255, 255, 0.1);
+}
+
+button.isPressed,
+button:active {
+    box-shadow: 9px 9px 16px 0 rgba(0, 0, 0, 0.1),
+        -3px -3px 12px 0 rgba(255, 255, 255, 0.05);
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(255, 255, 255, 0.01)
+    );
+}
+
+button.active {
+    border: 2px solid #1d2631;
+}
+button.light-text {
+    color: rgb(155, 155, 155);
+}

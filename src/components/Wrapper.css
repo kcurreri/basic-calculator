@@ -1,0 +1,17 @@
+.wrapper {
+    width: 340px;
+    height: 540px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+    background-color: #374353;
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0px;
+        border-radius: 0;
+    }
+}
